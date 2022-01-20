@@ -1,0 +1,53 @@
+0.4159 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+3.2196 	DATA 	Keypress: 1
+3.5033 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000194ACF21358>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000194ACF8FEF0>, multiSample=False, name='window1', numSamples=2, pos=[1120.0, 420.0], screen=0, size=array([1200,  600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.5034 	EXP 	window1: mouseVisible = True
+3.5034 	EXP 	window1: recordFrameIntervals = False
+3.6698 	EXP 	window1: recordFrameIntervals = True
+3.8554 	EXP 	window1: recordFrameIntervals = False
+4.8227 	EXP 	Created expStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+4.8282 	EXP 	Created blockStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Block 1 of 1\nPress space to begin', units='height', win=Window(...), wrapWidth=1)
+4.8304 	EXP 	Created visCueText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='visCueText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Test', units='height', win=Window(...), wrapWidth=1)
+4.8351 	EXP 	Created fixDot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixDot', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.8402 	EXP 	Created fixDotBlue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.0, name='fixDotBlue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.9154 	EXP 	Sound soundStim set volume 0.000
+4.9203 	EXP 	Created blockEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.9245 	EXP 	Created expEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of experiment! \nPlease stay seated.', units='height', win=Window(...), wrapWidth=1)
+4.9522 	EXP 	expStartText: autoDraw = True
+5.4233 	DATA 	Mouse: Left button down, pos=(873,182)
+5.5227 	DATA 	Mouse:  Left button up, pos=(873,182)
+5.6897 	DATA 	Keypress: space
+6.8089 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+6.8091 	EXP 	New trial (rep=0, index=0): None
+6.8162 	EXP 	Imported C:\Users\Alex\Documents\MATLAB\cmu\stim_v2\trialInfo\1\1.csv as conditions, 32 conditions, 8 params
+6.8165 	EXP 	Created sequence: sequential, trialTypes=32, nReps=32, seed=None
+6.8184 	DATA 	Keypress: space
+6.8388 	EXP 	expStartText: autoDraw = False
+16.7931 	EXP 	blockStartText: text = 'Block 1 of 6\nPress space to continue'
+16.7931 	EXP 	blockStartText: autoDraw = True
+18.0047 	EXP 	Imported C:\Users\Alex\Documents\MATLAB\cmu\stim_v2\trialInfo\1\1.csv as conditions, 32 conditions, 8 params
+18.0049 	EXP 	Created sequence: sequential, trialTypes=32, nReps=32, seed=None
+18.0053 	EXP 	New trial (rep=0, index=0): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 323), ('sylDist', 231), ('sylCent', 1133)])
+18.0112 	DATA 	Keypress: space
+18.0280 	EXP 	blockStartText: autoDraw = False
+19.0135 	EXP 	visCueText: text = 'Right'
+19.0135 	EXP 	visCueText: autoDraw = True
+20.0106 	EXP 	fixDot: autoDraw = True
+20.0291 	EXP 	visCueText: autoDraw = False
+21.0120 	EXP 	Sound soundStim started
+23.8127 	EXP 	Sound soundStim reached end of file
+24.8148 	EXP 	fixDot: autoDraw = False
+24.8148 	EXP 	fixDotBlue: autoDraw = True
+34.8057 	EXP 	New trial (rep=0, index=1): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 123), ('sylDist', 231), ('sylCent', 3233)])
+34.8206 	EXP 	visCueText: autoDraw = False
+34.8206 	EXP 	fixDot: autoDraw = False
+34.8206 	EXP 	fixDotBlue: autoDraw = False
+35.8020 	EXP 	visCueText: text = 'Left'
+35.8020 	EXP 	visCueText: autoDraw = True
+36.8039 	EXP 	visCueText: autoDraw = False
+36.8039 	EXP 	fixDot: autoDraw = True
+37.7736 	DATA 	Mouse: Left button down, pos=(894,178)
+37.8029 	EXP 	Sound soundStim started
+37.9064 	DATA 	Mouse:  Left button up, pos=(894,178)
+37.9889 	DATA 	Keypress: escape
+38.1444 	EXP 	window1: mouseVisible = True

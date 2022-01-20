@@ -1,0 +1,515 @@
+0.4177 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+4.4509 	DATA 	Keypress: 1
+4.8512 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018CAE05E5C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000018CAF5B7240>, multiSample=False, name='window1', numSamples=2, pos=[1120.0, 420.0], screen=0, size=array([1200,  600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.8513 	EXP 	window1: mouseVisible = True
+4.8513 	EXP 	window1: recordFrameIntervals = False
+5.0178 	EXP 	window1: recordFrameIntervals = True
+5.2014 	EXP 	window1: recordFrameIntervals = False
+6.1669 	EXP 	Created expStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+6.1725 	EXP 	Created blockStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Block 1 of 1\nPress space to begin', units='height', win=Window(...), wrapWidth=1)
+6.1751 	EXP 	Created visCueText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='visCueText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Test', units='height', win=Window(...), wrapWidth=1)
+6.1801 	EXP 	Created fixDot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixDot', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.1843 	EXP 	Created fixDotBlue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.0, name='fixDotBlue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.2433 	EXP 	Sound soundStim set volume 0.000
+6.2481 	EXP 	Created blockEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2522 	EXP 	Created expEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of experiment! \nPlease stay seated.', units='height', win=Window(...), wrapWidth=1)
+6.2815 	EXP 	expStartText: autoDraw = True
+6.8525 	DATA 	Mouse: Left button down, pos=(762,145)
+6.9475 	DATA 	Mouse:  Left button up, pos=(762,145)
+6.9957 	DATA 	Keypress: space
+7.4029 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+7.4031 	EXP 	New trial (rep=0, index=0): None
+7.4103 	EXP 	Imported C:\Users\Alex\Documents\MATLAB\cmu\stim_v2\trialInfo\StairCase\1.csv as conditions, 32 conditions, 8 params
+7.4106 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+7.4125 	DATA 	Keypress: space
+7.4166 	EXP 	expStartText: autoDraw = False
+17.3903 	EXP 	blockStartText: text = 'Block 1 of 1\n Press space to continue'
+17.3903 	EXP 	blockStartText: autoDraw = True
+18.0607 	DATA 	Mouse: Left button down, pos=(762,145)
+18.1614 	DATA 	Mouse:  Left button up, pos=(762,145)
+18.4939 	DATA 	Keypress: space
+18.5132 	EXP 	Imported C:\Users\Alex\Documents\MATLAB\cmu\stim_v2\trialInfo\StairCase\1.csv as conditions, 32 conditions, 8 params
+18.5135 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+18.5137 	EXP 	New trial (rep=0, index=0): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 323), ('sylDist', 232), ('sylCent', 3221)])
+18.5407 	EXP 	blockStartText: autoDraw = False
+19.5241 	EXP 	visCueText: text = 'Right'
+19.5241 	EXP 	visCueText: autoDraw = True
+20.5245 	EXP 	visCueText: autoDraw = False
+20.5245 	EXP 	fixDot: autoDraw = True
+21.5250 	EXP 	Sound soundStim started
+24.3213 	EXP 	Sound soundStim stopped
+25.3089 	EXP 	fixDotBlue: autoDraw = True
+25.3267 	EXP 	fixDot: autoDraw = False
+25.6811 	DATA 	Keypress: down
+33.2996 	EXP 	New trial (rep=0, index=1): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 131), ('sylDist', 213), ('sylCent', 3232)])
+33.3189 	EXP 	fixDotBlue: autoDraw = False
+33.3189 	EXP 	visCueText: autoDraw = False
+33.3189 	EXP 	fixDot: autoDraw = False
+33.3189 	EXP 	fixDotBlue: autoDraw = False
+34.2979 	EXP 	visCueText: text = 'Left'
+34.2979 	EXP 	visCueText: autoDraw = True
+35.2953 	EXP 	fixDot: autoDraw = True
+35.3114 	EXP 	visCueText: autoDraw = False
+36.2955 	EXP 	Sound soundStim started
+39.0912 	EXP 	Sound soundStim stopped
+40.0988 	EXP 	fixDot: autoDraw = False
+40.0988 	EXP 	fixDotBlue: autoDraw = True
+42.1578 	DATA 	Mouse: Left button down, pos=(657,332)
+42.2544 	DATA 	Mouse:  Left button up, pos=(657,332)
+42.9061 	DATA 	Keypress: down
+48.0898 	EXP 	New trial (rep=0, index=2): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 121), ('sylDist', 232), ('sylCent', 2321)])
+48.1044 	EXP 	fixDotBlue: autoDraw = False
+48.1044 	EXP 	visCueText: autoDraw = False
+48.1044 	EXP 	fixDot: autoDraw = False
+48.1044 	EXP 	fixDotBlue: autoDraw = False
+49.0936 	EXP 	visCueText: text = 'Left'
+49.0936 	EXP 	visCueText: autoDraw = True
+50.0889 	EXP 	fixDot: autoDraw = True
+50.1060 	EXP 	visCueText: autoDraw = False
+51.0917 	EXP 	Sound soundStim started
+53.8917 	EXP 	Sound soundStim reached end of file
+54.8886 	EXP 	fixDot: autoDraw = False
+54.8886 	EXP 	fixDotBlue: autoDraw = True
+58.1633 	DATA 	Mouse: Left button down, pos=(687,312)
+58.2616 	DATA 	Mouse:  Left button up, pos=(687,312)
+62.8800 	EXP 	New trial (rep=0, index=3): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 0), ('iGen', 0), ('sylTarg', 112), ('sylDist', 333), ('sylCent', 1332)])
+62.8944 	EXP 	fixDotBlue: autoDraw = False
+62.8944 	EXP 	visCueText: autoDraw = False
+62.8944 	EXP 	fixDot: autoDraw = False
+62.8944 	EXP 	fixDotBlue: autoDraw = False
+63.8783 	EXP 	visCueText: text = 'Left'
+63.8783 	EXP 	visCueText: autoDraw = True
+64.8788 	EXP 	visCueText: autoDraw = False
+64.8788 	EXP 	fixDot: autoDraw = True
+65.8758 	EXP 	Sound soundStim started
+68.6758 	EXP 	Sound soundStim reached end of file
+69.6805 	EXP 	fixDot: autoDraw = False
+69.6805 	EXP 	fixDotBlue: autoDraw = True
+77.6683 	EXP 	New trial (rep=0, index=4): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 212), ('sylDist', 323), ('sylCent', 2331)])
+77.6833 	EXP 	fixDotBlue: autoDraw = False
+77.6833 	EXP 	visCueText: autoDraw = False
+77.6833 	EXP 	fixDot: autoDraw = False
+77.6833 	EXP 	fixDotBlue: autoDraw = False
+78.6663 	EXP 	visCueText: text = 'Right'
+78.6663 	EXP 	visCueText: autoDraw = True
+79.6688 	EXP 	visCueText: autoDraw = False
+79.6688 	EXP 	fixDot: autoDraw = True
+80.6691 	EXP 	Sound soundStim started
+83.4710 	EXP 	Sound soundStim reached end of file
+84.4708 	EXP 	fixDot: autoDraw = False
+84.4708 	EXP 	fixDotBlue: autoDraw = True
+92.4597 	EXP 	New trial (rep=0, index=5): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 121), ('sylDist', 213), ('sylCent', 3323)])
+92.4759 	EXP 	fixDotBlue: autoDraw = False
+92.4759 	EXP 	visCueText: autoDraw = False
+92.4759 	EXP 	fixDot: autoDraw = False
+92.4759 	EXP 	fixDotBlue: autoDraw = False
+92.7260 	DATA 	Mouse: Left button down, pos=(588,262)
+92.8253 	DATA 	Mouse:  Left button up, pos=(588,262)
+93.4577 	EXP 	visCueText: text = 'Right'
+93.4577 	EXP 	visCueText: autoDraw = True
+94.4592 	EXP 	visCueText: autoDraw = False
+94.4592 	EXP 	fixDot: autoDraw = True
+95.4590 	EXP 	Sound soundStim started
+98.2609 	EXP 	Sound soundStim reached end of file
+99.2608 	EXP 	fixDot: autoDraw = False
+99.2608 	EXP 	fixDotBlue: autoDraw = True
+99.6299 	DATA 	Keypress: down
+107.2485 	EXP 	New trial (rep=0, index=6): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 231), ('sylDist', 313), ('sylCent', 1211)])
+107.2658 	EXP 	fixDotBlue: autoDraw = False
+107.2658 	EXP 	visCueText: autoDraw = False
+107.2658 	EXP 	fixDot: autoDraw = False
+107.2658 	EXP 	fixDotBlue: autoDraw = False
+108.2481 	EXP 	visCueText: text = 'Left'
+108.2481 	EXP 	visCueText: autoDraw = True
+109.2481 	EXP 	fixDot: autoDraw = True
+109.2652 	EXP 	visCueText: autoDraw = False
+110.2473 	EXP 	Sound soundStim started
+113.0473 	EXP 	Sound soundStim reached end of file
+114.0506 	EXP 	fixDot: autoDraw = False
+114.0506 	EXP 	fixDotBlue: autoDraw = True
+120.9225 	DATA 	Mouse: Left button down, pos=(793,188)
+121.0077 	DATA 	Mouse:  Left button up, pos=(793,188)
+122.0391 	EXP 	New trial (rep=0, index=7): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 233), ('sylDist', 121), ('sylCent', 2232)])
+122.0555 	EXP 	fixDotBlue: autoDraw = False
+122.0555 	EXP 	visCueText: autoDraw = False
+122.0555 	EXP 	fixDot: autoDraw = False
+122.0555 	EXP 	fixDotBlue: autoDraw = False
+123.0400 	EXP 	visCueText: text = 'Left'
+123.0400 	EXP 	visCueText: autoDraw = True
+124.0382 	EXP 	fixDot: autoDraw = True
+124.0548 	EXP 	visCueText: autoDraw = False
+125.0390 	EXP 	Sound soundStim started
+127.8407 	EXP 	Sound soundStim reached end of file
+128.8405 	EXP 	fixDot: autoDraw = False
+128.8405 	EXP 	fixDotBlue: autoDraw = True
+130.7288 	DATA 	Mouse: Left button down, pos=(588,273)
+130.8282 	DATA 	Mouse:  Left button up, pos=(588,273)
+132.0444 	DATA 	Keypress: down
+136.8312 	EXP 	New trial (rep=0, index=8): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 0), ('iGen', 1), ('sylTarg', 123), ('sylDist', 312), ('sylCent', 1312)])
+136.8439 	EXP 	fixDotBlue: autoDraw = False
+136.8439 	EXP 	visCueText: autoDraw = False
+136.8439 	EXP 	fixDot: autoDraw = False
+136.8439 	EXP 	fixDotBlue: autoDraw = False
+137.8263 	EXP 	visCueText: text = 'Left'
+137.8263 	EXP 	visCueText: autoDraw = True
+138.8256 	EXP 	visCueText: autoDraw = False
+138.8256 	EXP 	fixDot: autoDraw = True
+139.8290 	EXP 	Sound soundStim started
+142.6307 	EXP 	Sound soundStim reached end of file
+143.6333 	EXP 	fixDot: autoDraw = False
+143.6333 	EXP 	fixDotBlue: autoDraw = True
+151.6202 	EXP 	New trial (rep=0, index=9): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 122), ('sylDist', 231), ('sylCent', 1311)])
+151.6374 	EXP 	fixDotBlue: autoDraw = False
+151.6374 	EXP 	visCueText: autoDraw = False
+151.6374 	EXP 	fixDot: autoDraw = False
+151.6374 	EXP 	fixDotBlue: autoDraw = False
+152.4047 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.4362 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.4527 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.4712 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.4864 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.5027 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.5197 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.5526 	DATA 	Mouse: wheel shift=(0,-1), pos=(33,61)
+152.6211 	EXP 	visCueText: text = 'Left'
+152.6211 	EXP 	visCueText: autoDraw = True
+153.6208 	EXP 	fixDot: autoDraw = True
+153.6357 	EXP 	visCueText: autoDraw = False
+154.6160 	EXP 	Sound soundStim started
+157.4160 	EXP 	Sound soundStim reached end of file
+157.7141 	DATA 	Mouse: Left button down, pos=(542,194)
+157.8572 	DATA 	Mouse:  Left button up, pos=(542,194)
+158.4191 	EXP 	fixDot: autoDraw = False
+158.4191 	EXP 	fixDotBlue: autoDraw = True
+164.9606 	DATA 	Mouse: Left button down, pos=(557,240)
+165.0939 	DATA 	Mouse:  Left button up, pos=(557,240)
+166.4080 	EXP 	New trial (rep=0, index=10): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 131), ('sylDist', 312), ('sylCent', 1333)])
+166.4257 	EXP 	fixDotBlue: autoDraw = False
+166.4257 	EXP 	visCueText: autoDraw = False
+166.4257 	EXP 	fixDot: autoDraw = False
+166.4257 	EXP 	fixDotBlue: autoDraw = False
+167.4079 	EXP 	visCueText: text = 'Left'
+167.4079 	EXP 	visCueText: autoDraw = True
+168.4087 	EXP 	visCueText: autoDraw = False
+168.4087 	EXP 	fixDot: autoDraw = True
+169.4090 	EXP 	Sound soundStim started
+172.2105 	EXP 	Sound soundStim reached end of file
+173.2109 	EXP 	fixDot: autoDraw = False
+173.2109 	EXP 	fixDotBlue: autoDraw = True
+181.1983 	EXP 	New trial (rep=0, index=11): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 311), ('sylDist', 123), ('sylCent', 2312)])
+181.2161 	EXP 	fixDotBlue: autoDraw = False
+181.2161 	EXP 	visCueText: autoDraw = False
+181.2161 	EXP 	fixDot: autoDraw = False
+181.2161 	EXP 	fixDotBlue: autoDraw = False
+182.1985 	EXP 	visCueText: text = 'Right'
+182.1985 	EXP 	visCueText: autoDraw = True
+183.1981 	EXP 	visCueText: autoDraw = False
+183.1981 	EXP 	fixDot: autoDraw = True
+184.1979 	EXP 	Sound soundStim started
+187.0004 	EXP 	Sound soundStim reached end of file
+188.0011 	EXP 	fixDot: autoDraw = False
+188.0011 	EXP 	fixDotBlue: autoDraw = True
+191.2564 	DATA 	Mouse: Left button down, pos=(687,395)
+191.3712 	DATA 	Mouse:  Left button up, pos=(687,395)
+195.9883 	EXP 	New trial (rep=0, index=12): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 333), ('sylDist', 121), ('sylCent', 2332)])
+196.0061 	EXP 	fixDotBlue: autoDraw = False
+196.0061 	EXP 	visCueText: autoDraw = False
+196.0061 	EXP 	fixDot: autoDraw = False
+196.0061 	EXP 	fixDotBlue: autoDraw = False
+196.9880 	EXP 	visCueText: text = 'Left'
+196.9880 	EXP 	visCueText: autoDraw = True
+197.9886 	EXP 	visCueText: autoDraw = False
+197.9886 	EXP 	fixDot: autoDraw = True
+198.9893 	EXP 	Sound soundStim started
+201.7903 	EXP 	Sound soundStim reached end of file
+202.7908 	EXP 	fixDot: autoDraw = False
+202.7908 	EXP 	fixDotBlue: autoDraw = True
+203.1785 	DATA 	Keypress: up
+210.7788 	EXP 	New trial (rep=0, index=13): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 312), ('sylDist', 221), ('sylCent', 3121)])
+210.7960 	EXP 	fixDotBlue: autoDraw = False
+210.7960 	EXP 	visCueText: autoDraw = False
+210.7960 	EXP 	fixDot: autoDraw = False
+210.7960 	EXP 	fixDotBlue: autoDraw = False
+211.7805 	EXP 	visCueText: text = 'Left'
+211.7805 	EXP 	visCueText: autoDraw = True
+212.7814 	EXP 	fixDot: autoDraw = True
+212.7953 	EXP 	visCueText: autoDraw = False
+213.7793 	EXP 	Sound soundStim started
+216.5802 	EXP 	Sound soundStim reached end of file
+217.5807 	EXP 	fixDot: autoDraw = False
+217.5807 	EXP 	fixDotBlue: autoDraw = True
+223.7730 	DATA 	Mouse: Left button down, pos=(815,280)
+223.8891 	DATA 	Mouse:  Left button up, pos=(815,280)
+225.0202 	DATA 	Keypress: up
+225.5693 	EXP 	New trial (rep=0, index=14): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 223), ('sylDist', 132), ('sylCent', 2322)])
+225.5858 	EXP 	fixDotBlue: autoDraw = False
+225.5858 	EXP 	visCueText: autoDraw = False
+225.5858 	EXP 	fixDot: autoDraw = False
+225.5858 	EXP 	fixDotBlue: autoDraw = False
+226.5683 	EXP 	visCueText: text = 'Right'
+226.5683 	EXP 	visCueText: autoDraw = True
+227.5688 	EXP 	visCueText: autoDraw = False
+227.5688 	EXP 	fixDot: autoDraw = True
+228.5689 	EXP 	Sound soundStim started
+231.3702 	EXP 	Sound soundStim reached end of file
+232.3689 	EXP 	fixDot: autoDraw = False
+232.3689 	EXP 	fixDotBlue: autoDraw = True
+232.6060 	DATA 	Mouse: Left button down, pos=(806,280)
+232.6925 	DATA 	Mouse:  Left button up, pos=(806,280)
+233.5091 	DATA 	Keypress: down
+240.3596 	EXP 	New trial (rep=0, index=15): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 131), ('sylDist', 312), ('sylCent', 2112)])
+240.3771 	EXP 	fixDotBlue: autoDraw = False
+240.3771 	EXP 	visCueText: autoDraw = False
+240.3771 	EXP 	fixDot: autoDraw = False
+240.3771 	EXP 	fixDotBlue: autoDraw = False
+241.3582 	EXP 	visCueText: text = 'Left'
+241.3582 	EXP 	visCueText: autoDraw = True
+242.3605 	EXP 	visCueText: autoDraw = False
+242.3605 	EXP 	fixDot: autoDraw = True
+243.3592 	EXP 	Sound soundStim started
+246.1601 	EXP 	Sound soundStim reached end of file
+247.1610 	EXP 	fixDot: autoDraw = False
+247.1610 	EXP 	fixDotBlue: autoDraw = True
+255.1524 	EXP 	New trial (rep=0, index=16): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 232), ('sylDist', 323), ('sylCent', 2313)])
+255.1661 	EXP 	fixDotBlue: autoDraw = False
+255.1661 	EXP 	visCueText: autoDraw = False
+255.1661 	EXP 	fixDot: autoDraw = False
+255.1661 	EXP 	fixDotBlue: autoDraw = False
+256.1480 	EXP 	visCueText: text = 'Left'
+256.1480 	EXP 	visCueText: autoDraw = True
+257.1529 	EXP 	visCueText: autoDraw = False
+257.1529 	EXP 	fixDot: autoDraw = True
+258.1507 	EXP 	Sound soundStim started
+260.9500 	EXP 	Sound soundStim stopped
+261.9511 	EXP 	fixDotBlue: autoDraw = True
+261.9691 	EXP 	fixDot: autoDraw = False
+269.9429 	EXP 	New trial (rep=0, index=17): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 0), ('iGen', 1), ('sylTarg', 123), ('sylDist', 231), ('sylCent', 2332)])
+269.9560 	EXP 	fixDotBlue: autoDraw = False
+269.9560 	EXP 	visCueText: autoDraw = False
+269.9560 	EXP 	fixDot: autoDraw = False
+269.9560 	EXP 	fixDotBlue: autoDraw = False
+270.9384 	EXP 	visCueText: text = 'Left'
+270.9384 	EXP 	visCueText: autoDraw = True
+271.9386 	EXP 	visCueText: autoDraw = False
+271.9386 	EXP 	fixDot: autoDraw = True
+271.9608 	DATA 	Mouse: Left button down, pos=(582,286)
+272.0900 	DATA 	Mouse:  Left button up, pos=(582,286)
+272.9401 	EXP 	Sound soundStim started
+275.7399 	EXP 	Sound soundStim stopped
+276.7411 	EXP 	fixDot: autoDraw = False
+276.7411 	EXP 	fixDotBlue: autoDraw = True
+284.7297 	EXP 	New trial (rep=0, index=18): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 213), ('sylDist', 321), ('sylCent', 1311)])
+284.7460 	EXP 	fixDotBlue: autoDraw = False
+284.7460 	EXP 	visCueText: autoDraw = False
+284.7460 	EXP 	fixDot: autoDraw = False
+284.7460 	EXP 	fixDotBlue: autoDraw = False
+285.7273 	EXP 	visCueText: text = 'Right'
+285.7273 	EXP 	visCueText: autoDraw = True
+286.7287 	EXP 	visCueText: autoDraw = False
+286.7287 	EXP 	fixDot: autoDraw = True
+287.7293 	EXP 	Sound soundStim started
+290.5298 	EXP 	Sound soundStim reached end of file
+291.5311 	EXP 	fixDot: autoDraw = False
+291.5311 	EXP 	fixDotBlue: autoDraw = True
+291.8839 	DATA 	Keypress: up
+299.5199 	EXP 	New trial (rep=0, index=19): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 131), ('sylDist', 323), ('sylCent', 1123)])
+299.5360 	EXP 	fixDotBlue: autoDraw = False
+299.5360 	EXP 	visCueText: autoDraw = False
+299.5360 	EXP 	fixDot: autoDraw = False
+299.5360 	EXP 	fixDotBlue: autoDraw = False
+300.5181 	EXP 	visCueText: text = 'Right'
+300.5181 	EXP 	visCueText: autoDraw = True
+301.5189 	EXP 	visCueText: autoDraw = False
+301.5189 	EXP 	fixDot: autoDraw = True
+302.5193 	EXP 	Sound soundStim started
+304.1054 	DATA 	Mouse: Left button down, pos=(582,286)
+304.2053 	DATA 	Mouse:  Left button up, pos=(582,286)
+305.3197 	EXP 	Sound soundStim reached end of file
+306.3211 	EXP 	fixDot: autoDraw = False
+306.3211 	EXP 	fixDotBlue: autoDraw = True
+314.3082 	EXP 	New trial (rep=0, index=20): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 332), ('sylDist', 121), ('sylCent', 2113)])
+314.3260 	EXP 	fixDotBlue: autoDraw = False
+314.3260 	EXP 	visCueText: autoDraw = False
+314.3260 	EXP 	fixDot: autoDraw = False
+314.3260 	EXP 	fixDotBlue: autoDraw = False
+315.3085 	EXP 	visCueText: text = 'Left'
+315.3085 	EXP 	visCueText: autoDraw = True
+316.3075 	EXP 	visCueText: autoDraw = False
+316.3075 	EXP 	fixDot: autoDraw = True
+317.3093 	EXP 	Sound soundStim started
+320.1097 	EXP 	Sound soundStim reached end of file
+321.1110 	EXP 	fixDot: autoDraw = False
+321.1110 	EXP 	fixDotBlue: autoDraw = True
+321.4821 	DATA 	Keypress: up
+329.0995 	EXP 	New trial (rep=0, index=21): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 313), ('sylDist', 231), ('sylCent', 3323)])
+329.1160 	EXP 	fixDotBlue: autoDraw = False
+329.1160 	EXP 	visCueText: autoDraw = False
+329.1160 	EXP 	fixDot: autoDraw = False
+329.1160 	EXP 	fixDotBlue: autoDraw = False
+330.1001 	EXP 	visCueText: text = 'Right'
+330.1001 	EXP 	visCueText: autoDraw = True
+331.0984 	EXP 	fixDot: autoDraw = True
+331.1136 	EXP 	visCueText: autoDraw = False
+332.0988 	EXP 	Sound soundStim started
+333.1887 	DATA 	Mouse: Left button down, pos=(814,414)
+333.2869 	DATA 	Mouse:  Left button up, pos=(814,414)
+334.4175 	DATA 	Keypress: up
+334.8996 	EXP 	Sound soundStim reached end of file
+335.6862 	DATA 	Mouse: Left button down, pos=(814,414)
+335.7548 	DATA 	Mouse:  Left button up, pos=(814,414)
+335.9028 	EXP 	fixDot: autoDraw = False
+335.9028 	EXP 	fixDotBlue: autoDraw = True
+336.8226 	DATA 	Keypress: down
+343.8902 	EXP 	New trial (rep=0, index=22): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 221), ('sylDist', 133), ('sylCent', 3113)])
+343.9074 	EXP 	fixDotBlue: autoDraw = False
+343.9074 	EXP 	visCueText: autoDraw = False
+343.9074 	EXP 	fixDot: autoDraw = False
+343.9074 	EXP 	fixDotBlue: autoDraw = False
+344.8900 	EXP 	visCueText: text = 'Left'
+344.8900 	EXP 	visCueText: autoDraw = True
+345.8870 	EXP 	visCueText: autoDraw = False
+345.8870 	EXP 	fixDot: autoDraw = True
+346.8925 	EXP 	Sound soundStim started
+349.6925 	EXP 	Sound soundStim reached end of file
+350.6914 	EXP 	fixDot: autoDraw = False
+350.6914 	EXP 	fixDotBlue: autoDraw = True
+352.3825 	DATA 	Mouse: Left button down, pos=(739,286)
+352.5115 	DATA 	Mouse:  Left button up, pos=(739,286)
+358.6796 	EXP 	New trial (rep=0, index=23): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 0), ('iGen', 1), ('sylTarg', 213), ('sylDist', 321), ('sylCent', 1221)])
+358.6961 	EXP 	fixDotBlue: autoDraw = False
+358.6961 	EXP 	visCueText: autoDraw = False
+358.6961 	EXP 	fixDot: autoDraw = False
+358.6961 	EXP 	fixDotBlue: autoDraw = False
+359.6774 	EXP 	visCueText: text = 'Left'
+359.6774 	EXP 	visCueText: autoDraw = True
+360.6788 	EXP 	visCueText: autoDraw = False
+360.6788 	EXP 	fixDot: autoDraw = True
+361.6792 	EXP 	Sound soundStim started
+364.4794 	EXP 	Sound soundStim reached end of file
+365.4796 	EXP 	fixDot: autoDraw = False
+365.4796 	EXP 	fixDotBlue: autoDraw = True
+373.4699 	EXP 	New trial (rep=0, index=24): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 313), ('sylDist', 232), ('sylCent', 1122)])
+373.4859 	EXP 	fixDotBlue: autoDraw = False
+373.4859 	EXP 	visCueText: autoDraw = False
+373.4859 	EXP 	fixDot: autoDraw = False
+373.4859 	EXP 	fixDotBlue: autoDraw = False
+374.4681 	EXP 	visCueText: text = 'Right'
+374.4681 	EXP 	visCueText: autoDraw = True
+375.4676 	EXP 	visCueText: autoDraw = False
+375.4676 	EXP 	fixDot: autoDraw = True
+376.4691 	EXP 	Sound soundStim started
+379.2693 	EXP 	Sound soundStim reached end of file
+380.2696 	EXP 	fixDot: autoDraw = False
+380.2696 	EXP 	fixDotBlue: autoDraw = True
+388.2608 	EXP 	New trial (rep=0, index=25): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 0), ('iGen', 1), ('sylTarg', 312), ('sylDist', 231), ('sylCent', 2133)])
+388.2749 	EXP 	fixDotBlue: autoDraw = False
+388.2749 	EXP 	visCueText: autoDraw = False
+388.2749 	EXP 	fixDot: autoDraw = False
+388.2749 	EXP 	fixDotBlue: autoDraw = False
+389.2584 	EXP 	visCueText: text = 'Right'
+389.2584 	EXP 	visCueText: autoDraw = True
+390.2585 	EXP 	visCueText: autoDraw = False
+390.2585 	EXP 	fixDot: autoDraw = True
+391.2578 	EXP 	Sound soundStim started
+394.0592 	EXP 	Sound soundStim reached end of file
+395.0691 	EXP 	fixDot: autoDraw = False
+395.0691 	EXP 	fixDotBlue: autoDraw = True
+403.0686 	EXP 	New trial (rep=0, index=26): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 212), ('sylDist', 323), ('sylCent', 2133)])
+403.0826 	EXP 	fixDotBlue: autoDraw = False
+403.0826 	EXP 	visCueText: autoDraw = False
+403.0826 	EXP 	fixDot: autoDraw = False
+403.0826 	EXP 	fixDotBlue: autoDraw = False
+404.0661 	EXP 	visCueText: text = 'Right'
+404.0661 	EXP 	visCueText: autoDraw = True
+405.0672 	EXP 	visCueText: autoDraw = False
+405.0672 	EXP 	fixDot: autoDraw = True
+405.4343 	DATA 	Mouse: Left button down, pos=(789,432)
+405.5513 	DATA 	Mouse:  Left button up, pos=(789,432)
+406.0656 	EXP 	Sound soundStim started
+408.8656 	EXP 	Sound soundStim reached end of file
+409.8665 	EXP 	fixDot: autoDraw = False
+409.8665 	EXP 	fixDotBlue: autoDraw = True
+410.3226 	DATA 	Keypress: up
+417.8575 	EXP 	New trial (rep=0, index=27): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 1), ('iGen', 1), ('sylTarg', 121), ('sylDist', 212), ('sylCent', 2122)])
+417.8753 	EXP 	fixDotBlue: autoDraw = False
+417.8753 	EXP 	visCueText: autoDraw = False
+417.8753 	EXP 	fixDot: autoDraw = False
+417.8753 	EXP 	fixDotBlue: autoDraw = False
+418.8564 	EXP 	visCueText: text = 'Right'
+418.8564 	EXP 	visCueText: autoDraw = True
+419.8568 	EXP 	fixDot: autoDraw = True
+419.8716 	EXP 	visCueText: autoDraw = False
+420.8554 	EXP 	Sound soundStim started
+423.6554 	EXP 	Sound soundStim reached end of file
+424.6571 	EXP 	fixDot: autoDraw = False
+424.6571 	EXP 	fixDotBlue: autoDraw = True
+432.6464 	EXP 	New trial (rep=0, index=28): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 0), ('iGen', 0), ('sylTarg', 323), ('sylDist', 232), ('sylCent', 2121)])
+432.6625 	EXP 	fixDotBlue: autoDraw = False
+432.6625 	EXP 	visCueText: autoDraw = False
+432.6625 	EXP 	fixDot: autoDraw = False
+432.6625 	EXP 	fixDotBlue: autoDraw = False
+433.6447 	EXP 	visCueText: text = 'Right'
+433.6447 	EXP 	visCueText: autoDraw = True
+434.6451 	EXP 	visCueText: autoDraw = False
+434.6451 	EXP 	fixDot: autoDraw = True
+435.6473 	EXP 	Sound soundStim started
+438.4490 	EXP 	Sound soundStim reached end of file
+439.4477 	EXP 	fixDot: autoDraw = False
+439.4477 	EXP 	fixDotBlue: autoDraw = True
+445.7203 	DATA 	Mouse: Left button down, pos=(340,425)
+445.8167 	DATA 	Mouse:  Left button up, pos=(340,425)
+447.4344 	EXP 	New trial (rep=0, index=29): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 123), ('sylDist', 312), ('sylCent', 1223)])
+447.4491 	EXP 	fixDotBlue: autoDraw = False
+447.4491 	EXP 	visCueText: autoDraw = False
+447.4491 	EXP 	fixDot: autoDraw = False
+447.4491 	EXP 	fixDotBlue: autoDraw = False
+448.4333 	EXP 	visCueText: text = 'Right'
+448.4333 	EXP 	visCueText: autoDraw = True
+449.4351 	EXP 	visCueText: autoDraw = False
+449.4351 	EXP 	fixDot: autoDraw = True
+450.4337 	EXP 	Sound soundStim started
+453.2289 	EXP 	Sound soundStim stopped
+454.2379 	EXP 	fixDot: autoDraw = False
+454.2379 	EXP 	fixDotBlue: autoDraw = True
+462.2278 	EXP 	New trial (rep=0, index=30): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 1), ('sylTarg', 132), ('sylDist', 321), ('sylCent', 2231)])
+462.2457 	EXP 	fixDotBlue: autoDraw = False
+462.2457 	EXP 	visCueText: autoDraw = False
+462.2457 	EXP 	fixDot: autoDraw = False
+462.2457 	EXP 	fixDotBlue: autoDraw = False
+463.2245 	EXP 	visCueText: text = 'Right'
+463.2245 	EXP 	visCueText: autoDraw = True
+464.2252 	EXP 	visCueText: autoDraw = False
+464.2252 	EXP 	fixDot: autoDraw = True
+465.2296 	EXP 	Sound soundStim started
+468.0296 	EXP 	Sound soundStim reached end of file
+469.0291 	EXP 	fixDot: autoDraw = False
+469.0291 	EXP 	fixDotBlue: autoDraw = True
+473.6694 	DATA 	Mouse: Left button down, pos=(881,204)
+473.7837 	DATA 	Mouse:  Left button up, pos=(881,204)
+477.0164 	EXP 	New trial (rep=0, index=31): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 0), ('iGen', 1), ('sylTarg', 313), ('sylDist', 231), ('sylCent', 1133)])
+477.0318 	EXP 	fixDotBlue: autoDraw = False
+477.0318 	EXP 	visCueText: autoDraw = False
+477.0318 	EXP 	fixDot: autoDraw = False
+477.0318 	EXP 	fixDotBlue: autoDraw = False
+478.0143 	EXP 	visCueText: text = 'Right'
+478.0143 	EXP 	visCueText: autoDraw = True
+479.0142 	EXP 	visCueText: autoDraw = False
+479.0142 	EXP 	fixDot: autoDraw = True
+480.0171 	EXP 	Sound soundStim started
+482.8187 	EXP 	Sound soundStim reached end of file
+483.8177 	EXP 	fixDot: autoDraw = False
+483.8177 	EXP 	fixDotBlue: autoDraw = True
+491.8202 	EXP 	fixDotBlue: autoDraw = False
+491.8202 	EXP 	visCueText: autoDraw = False
+491.8202 	EXP 	fixDot: autoDraw = False
+491.8202 	EXP 	fixDotBlue: autoDraw = False
+491.8202 	EXP 	blockEndText: text = 'End of Block 1\nYour accuracy: 15.62\nPress space to begin next block'
+491.8202 	EXP 	blockEndText: autoDraw = True
+492.9253 	DATA 	Mouse: Left button down, pos=(645,316)
+493.0253 	DATA 	Mouse:  Left button up, pos=(645,316)
+493.9446 	DATA 	Keypress: space
+493.9556 	EXP 	blockEndText: autoDraw = False
+493.9556 	EXP 	expEndText: autoDraw = True
+495.0425 	DATA 	Keypress: space
+495.0545 	EXP 	expEndText: autoDraw = False
+495.0794 	EXP 	window1: mouseVisible = True

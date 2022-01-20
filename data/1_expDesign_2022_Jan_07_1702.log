@@ -1,0 +1,33 @@
+0.5757 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.5868 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002F2754C8518>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002F275508978>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3440, 1440]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5870 	EXP 	window1: mouseVisible = True
+6.5870 	EXP 	window1: recordFrameIntervals = False
+6.7533 	EXP 	window1: recordFrameIntervals = True
+6.8459 	WARNING 	t of last frame was 26.01ms (=1/38)
+7.0195 	EXP 	window1: recordFrameIntervals = False
+8.0792 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to continue\n\n', units='height', win=Window(...), wrapWidth=1)
+8.0877 	EXP 	Created blockNum = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blockNum', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Block 1 of 1', units='height', win=Window(...), wrapWidth=1)
+8.0899 	EXP 	Created visCue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='visCue', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='test', units='height', win=Window(...), wrapWidth=1)
+8.0947 	EXP 	Created fixDot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixDot', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.0988 	EXP 	Created fixDotBlue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.0, name='fixDotBlue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.1070 	EXP 	Sound soundStim set volume 1.000
+8.1793 	EXP 	text: autoDraw = True
+9.1868 	EXP 	text: autoDraw = False
+12.2925 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+12.2926 	EXP 	New trial (rep=0, index=0): None
+12.2953 	DATA 	Keypress: space
+12.3062 	EXP 	text: autoDraw = False
+12.3062 	EXP 	blockNum: autoDraw = True
+13.2913 	EXP 	Created sequence: sequential, trialTypes=1, nReps=32, seed=None
+13.2915 	EXP 	New trial (rep=0, index=0): None
+13.3060 	EXP 	blockNum: autoDraw = False
+13.3060 	EXP 	blockNum: autoDraw = False
+14.2897 	EXP 	visCue: autoDraw = True
+15.2913 	EXP 	visCue: autoDraw = False
+15.2913 	EXP 	fixDot: autoDraw = True
+15.2914 	EXP 	window1: recordFrameIntervals = False
+15.3080 	EXP 	window1: recordFrameIntervals = False
+20.1100 	EXP 	fixDot: autoDraw = False
+20.1100 	EXP 	fixDotBlue: autoDraw = True
+21.8303 	DATA 	Keypress: escape
+22.1000 	EXP 	window1: mouseVisible = True

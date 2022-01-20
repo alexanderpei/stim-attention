@@ -1,0 +1,3 @@
+﻿block.thisRepN,block.thisTrialN,block.thisN,block.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,iStimSide,iTargSide,iSideFirst,iStim,iGen,sylTarg,sylDist,sylCent,expStartText.started,expStartText.stopped,expStartKey.keys,expStartKey.rt,expStartKey.started,expStartKey.stopped,blockStartText.started,blockStartText.stopped,blockStartKey.keys,blockStartKey.rt,blockStartKey.started,blockStartKey.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,,,,,6.487347099988256,None,space,0.4758680000086315,7.4546685999957845,None,,,,,,,1,001,2022_Jan_09_1845,expDesign,2021.2.3,60.150882474084156,
+,,,,,,,,,,,,,,,,,,,,,,17.9293478000327,None,space,5.142171100014821,17.9293478000327,None,,,,,,,
