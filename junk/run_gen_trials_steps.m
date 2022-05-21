@@ -18,18 +18,6 @@ end
 sylPerm = perms([1 1 1 2 2 2 3 3 3]);
 sylPerm = unique(sylPerm(:, 1:3),'rows');
 
-% Remove three of a kind
-iRemove = [];
-for iPerm = 1:size(sylPerm, 1)
-    tempPerm = sylPerm(iPerm, :);
-
-    if length(unique(tempPerm)) == 1
-        iRemove = [iRemove iPerm];
-    end
-end
-
-sylPerm(iRemove, :) = [];
-
 % Want to increase number of trials with 3 unique syllables and no 2
 % sequential syllables
 iBad = [];
@@ -38,7 +26,9 @@ for iPerm = 1:size(sylPerm, 1)
 
     tempPerm = sylPerm(iPerm, :);
 
-    if tempPerm(1) == tempPerm(2) || tempPerm(2) == tempPerm(3)
+    if length(unique(tempPerm)) == 1
+        iBad = [iBad iPerm];
+    elseif tempPerm(1) == tempPerm(2) || tempPerm(2) == tempPerm(3)
         iBad = [iBad iPerm];
     end
 
@@ -72,10 +62,6 @@ trialInfo = cell(nTrial, 5);
 
 for iSub = 1:nSub
     for iBlock = 1:nBlock
-
-        binCond = dec2bin(0:2^5-1) - '0';
-        binCond = binCond(randperm(size(binCond,1)), :);
-
         for iTrial = 1:nTrial
 
             tempPerm = sylPerm(randperm(size(sylPerm, 1), 2), :);
@@ -90,10 +76,22 @@ for iSub = 1:nSub
 
             trialInfo{iTrial, 8} = polyval(sylPermCenter(iPermCenter, :), 10);
 
-            for iCond = 1:5
+        end
 
-                trialInfo{iTrial, iCond} = binCond(iTrial, iCond);
+        for iCond = 1:5
 
+            if iCond == 4
+                iRand = ones(1, nTrial);
+                iRand(20:32) = 0;
+                iRand = iRand(randperm(nTrial));
+            else
+                iRand = ones(1, nTrial);
+                iRand(nTrial/2+1: nTrial) = 0;
+                iRand = iRand(randperm(nTrial));
+            end
+
+            for iTrial = 1:nTrial
+                trialInfo{iTrial, iCond} = iRand(iTrial);
             end
 
         end

@@ -58,11 +58,9 @@ waveTrue = waveTrue.*sin(2*pi*freq*t);
 % Plot
 figure
 subplot(1,2,1)
-plot(t, waveTrue)
+plot(waveTrue)
 subplot(1,2,2)
-plot(t, waveSham)
-
-keyboard
+plot(waveSham)
 
 %% Make the files and waveforms at the electrodes
 

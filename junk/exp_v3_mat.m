@@ -4,11 +4,11 @@ clear
 close all
 
 try
-    playrec('reset')  
+    playrec('reset')
 catch
 end
 
-iSub = 2;
+iSub = 1;
 % Generate the sound stimuli
 allSounds = fn_gen_sounds(iSub);
 %% Connect to RME

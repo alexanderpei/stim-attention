@@ -4,9 +4,12 @@ clear all
 close all
 clc
 
-nBlock = 1;
+rng('default')
+rng(1)
+
+nBlock = 6;
 nTrial = 32;
-nSub   = 1;
+nSub   = 61;
 
 pathOut = fullfile(cd, 'trialInfo');
 if ~exist(pathOut)
@@ -54,6 +57,9 @@ sylPerm = [sylPerm; goodPerm; goodPerm; goodPerm];
 sylPermCenter = perms([1 1 1 2 2 2 3 3 3]);
 sylPermCenter = unique(sylPermCenter(:, 1:4),'rows');
 
+sylPermFlank  = perms([1 1 1 2 2 2 3 3 3]);
+sylPermFlank  = unique(sylPermFlank(:, 1:3),'rows');
+
 %%
 
 % (1) iStimSide: 0 - left, 1 - right
@@ -66,7 +72,7 @@ sylPermCenter = unique(sylPermCenter(:, 1:4),'rows');
 % (8) sylCent
 
 names = {'iStimSide', 'iTargSide', 'iSideFirst', 'iStim', ...
-    'iGen', 'sylTarg', 'sylDist', 'sylCent'};
+    'iGen', 'sylTarg', 'sylDist', 'sylCent', 'sylFlank', 'sylFlankFirst'};
 
 trialInfo = cell(nTrial, 5);
 
@@ -75,6 +81,17 @@ for iSub = 1:nSub
 
         binCond = dec2bin(0:2^5-1) - '0';
         binCond = binCond(randperm(size(binCond,1)), :);
+
+        sylFlankOrder = [zeros(1, nTrial/2) ones(1, nTrial/2)];
+        sylFlankOrder = sylFlankOrder(randperm(nTrial));
+
+        % Add in extra stim trials for the StairCase
+        if iSub == 61
+            iTemp = find(binCond(:, 4) == 0);
+            iTemp = iTemp(randperm(length(iTemp)));
+            iTemp(1:length(iTemp)/2) = [];
+            binCond(iTemp, 4) = 1;
+        end
 
         for iTrial = 1:nTrial
 
@@ -86,9 +103,16 @@ for iSub = 1:nSub
             trialInfo{iTrial, 6} = polyval(tempPerm(1, :), 10);
             trialInfo{iTrial, 7} = polyval(tempPerm(2, :), 10);
 
+            % Center stream
             iPermCenter = randperm(size(sylPermCenter, 1), 1);
-
             trialInfo{iTrial, 8} = polyval(sylPermCenter(iPermCenter, :), 10);
+
+            % Left flank
+            iPerm = randperm(size(sylPermFlank, 1), 1);
+            trialInfo{iTrial, 9} = polyval(sylPermFlank(iPerm, :), 10);
+
+            % Right flank
+            trialInfo{iTrial, 10} = sylFlankOrder(iTrial);
 
             for iCond = 1:5
 
@@ -100,7 +124,12 @@ for iSub = 1:nSub
 
         T = cell2table(trialInfo, 'VariableNames', names);
 
-        tempPathOut = fullfile(pathOut, 'StairCase');
+        if iSub == 61
+            tempPathOut = fullfile(pathOut, 'StairCase');
+        else
+            tempPathOut = fullfile(pathOut, num2str(iSub));
+        end
+
         if ~exist(tempPathOut)
             mkdir(tempPathOut)
         end

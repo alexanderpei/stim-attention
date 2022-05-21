@@ -6,7 +6,7 @@ clc
 
 nBlock = 6;
 nTrial = 32;
-nSub   = 60;
+nSub   = 61;
 
 pathOut = fullfile(cd, 'trialInfo');
 if ~exist(pathOut)
@@ -18,6 +18,18 @@ end
 sylPerm = perms([1 1 1 2 2 2 3 3 3]);
 sylPerm = unique(sylPerm(:, 1:3),'rows');
 
+% Remove three of a kind
+iRemove = [];
+for iPerm = 1:size(sylPerm, 1)
+    tempPerm = sylPerm(iPerm, :);
+
+    if length(unique(tempPerm)) == 1
+        iRemove = [iRemove iPerm];
+    end
+end
+
+sylPerm(iRemove, :) = [];
+
 % Want to increase number of trials with 3 unique syllables and no 2
 % sequential syllables
 iBad = [];
@@ -26,9 +38,7 @@ for iPerm = 1:size(sylPerm, 1)
 
     tempPerm = sylPerm(iPerm, :);
 
-    if length(unique(tempPerm)) == 1
-        iBad = [iBad iPerm];
-    elseif tempPerm(1) == tempPerm(2) || tempPerm(2) == tempPerm(3)
+    if tempPerm(1) == tempPerm(2) || tempPerm(2) == tempPerm(3)
         iBad = [iBad iPerm];
     end
 
@@ -62,6 +72,18 @@ trialInfo = cell(nTrial, 5);
 
 for iSub = 1:nSub
     for iBlock = 1:nBlock
+
+        binCond = dec2bin(0:2^5-1) - '0';
+        binCond = binCond(randperm(size(binCond,1)), :);
+
+        % Add in extra stim trials for the StairCase
+        if iSub == 61
+            iTemp = find(binCond(:, 4) == 0);
+            iTemp = iTemp(randperm(length(iTemp)));
+            iTemp(1:length(iTemp)/2) = [];
+            binCond(iTemp, 4) = 1;
+        end
+
         for iTrial = 1:nTrial
 
             tempPerm = sylPerm(randperm(size(sylPerm, 1), 2), :);
@@ -76,23 +98,22 @@ for iSub = 1:nSub
 
             trialInfo{iTrial, 8} = polyval(sylPermCenter(iPermCenter, :), 10);
 
-        end
+            for iCond = 1:5
 
-        for iCond = 1:5
+                trialInfo{iTrial, iCond} = binCond(iTrial, iCond);
 
-            iRand = ones(1, nTrial);
-            iRand(nTrial/2+1: nTrial) = 0;
-            iRand = iRand(randperm(nTrial));
-
-            for iTrial = 1:nTrial
-                trialInfo{iTrial, iCond} = iRand(iTrial);
             end
 
         end
 
         T = cell2table(trialInfo, 'VariableNames', names);
 
-        tempPathOut = fullfile(pathOut, num2str(iSub));
+        if iSub == 61
+            tempPathOut = fullfile(pathOut, 'StairCase');
+        else
+            tempPathOut = fullfile(pathOut, num2str(iSub));
+        end
+
         if ~exist(tempPathOut)
             mkdir(tempPathOut)
         end
