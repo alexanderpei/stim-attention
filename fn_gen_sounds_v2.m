@@ -170,9 +170,8 @@ for iBlock = 1:nBlock
         lagStream  = [lagStream; zeros(nPadLag, 2)];
 
         allStream = leadStream + lagStream + centStream + flankStream;
-
+        
         soundsc(allStream, fs)
-
         keyboard
 
         allSounds{iBlock, iTrial} = allStream;

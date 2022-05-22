@@ -1,0 +1,161 @@
+0.4955 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+14.9232 	DATA 	Keypress: num_1
+14.9236 	DATA 	Keypress: num_1
+14.9238 	DATA 	Keypress: numlock
+14.9240 	DATA 	Keypress: numlock
+14.9242 	DATA 	Keypress: 1
+14.9245 	DATA 	Keypress: 1
+15.2826 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0.00392157, 0.00392157, 0.00392157]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000018D85A3D7B8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000018D85AB2390>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 300.0], screen=0, size=array([1200,  600]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.2833 	EXP 	window1: mouseVisible = True
+15.2834 	EXP 	window1: recordFrameIntervals = False
+15.4467 	EXP 	window1: recordFrameIntervals = True
+15.6316 	EXP 	window1: recordFrameIntervals = False
+16.0945 	EXP 	Created expStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press space to begin', units='height', win=Window(...), wrapWidth=1)
+16.0999 	EXP 	Created blockStartText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockStartText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Block 1 of 1\nPress space to begin', units='height', win=Window(...), wrapWidth=1)
+16.1022 	EXP 	Created visCueText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='visCueText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Test', units='height', win=Window(...), wrapWidth=1)
+16.1070 	EXP 	Created fixDot = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixDot', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.1108 	EXP 	Created fixDotBlue = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1,  1]), fillColorSpace='rgb', fillRGB=array([-1, -1,  1]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1, -1,  1]), lineWidth=1.0, name='fixDotBlue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.015, 0.015]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+16.2409 	EXP 	Sound soundStim set volume 0.000
+16.2457 	EXP 	Created blockEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='blockEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.2500 	EXP 	Created expEndText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.025, italic=False, languageStyle='LTR', name='expEndText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='End of experiment! \nPlease stay seated.', units='height', win=Window(...), wrapWidth=1)
+16.2958 	EXP 	expStartText: autoDraw = True
+28.8979 	DATA 	Keypress: space
+28.9128 	EXP 	Created sequence: sequential, trialTypes=1, nReps=6, seed=None
+28.9136 	EXP 	New trial (rep=0, index=0): None
+28.9343 	EXP 	Imported C:\Users\Lab Admin\Documents\AlexP\stim-clone\stim-attention\trialInfo\1\1.csv as conditions, 32 conditions, 10 params
+28.9348 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+28.9568 	EXP 	expStartText: autoDraw = False
+38.9322 	EXP 	blockStartText: text = 'Block 1 of 6\n Press space to continue'
+38.9322 	EXP 	blockStartText: autoDraw = True
+40.9707 	EXP 	Imported C:\Users\Lab Admin\Documents\AlexP\stim-clone\stim-attention\trialInfo\1\1.csv as conditions, 32 conditions, 10 params
+40.9713 	EXP 	Created sequence: sequential, trialTypes=32, nReps=1, seed=None
+40.9718 	EXP 	New trial (rep=0, index=0): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 121), ('sylDist', 232), ('sylCent', 2333), ('sylFlank', 222), ('sylFlankFirst', 0)])
+40.9827 	DATA 	Keypress: space
+41.0001 	EXP 	blockStartText: autoDraw = False
+42.0009 	EXP 	visCueText: text = 'Left'
+42.0009 	EXP 	visCueText: autoDraw = True
+42.9863 	EXP 	fixDot: autoDraw = True
+43.0027 	EXP 	visCueText: autoDraw = False
+43.9854 	EXP 	Sound soundStim started
+46.7855 	EXP 	Sound soundStim reached end of file
+47.7725 	EXP 	fixDotBlue: autoDraw = True
+47.7898 	EXP 	fixDot: autoDraw = False
+48.0989 	DATA 	Keypress: num_1
+48.8488 	DATA 	Keypress: num_2
+50.1320 	DATA 	Keypress: num_1
+55.7713 	EXP 	New trial (rep=0, index=1): OrderedDict([('iStimSide', 0), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 211), ('sylDist', 323), ('sylCent', 2123), ('sylFlank', 122), ('sylFlankFirst', 1)])
+55.7968 	EXP 	visCueText: autoDraw = False
+55.7968 	EXP 	fixDot: autoDraw = False
+55.7968 	EXP 	fixDotBlue: autoDraw = False
+56.7963 	EXP 	visCueText: text = 'Right'
+56.7963 	EXP 	visCueText: autoDraw = True
+57.7813 	EXP 	fixDot: autoDraw = True
+57.7970 	EXP 	visCueText: autoDraw = False
+58.7836 	EXP 	Sound soundStim started
+61.5792 	EXP 	Sound soundStim stopped
+62.5828 	EXP 	fixDot: autoDraw = False
+62.5828 	EXP 	fixDotBlue: autoDraw = True
+63.5764 	DATA 	Keypress: num_1
+64.8268 	DATA 	Keypress: num_2
+65.1795 	DATA 	Keypress: num_3
+66.7287 	DATA 	Keypress: num_1
+70.5641 	EXP 	New trial (rep=0, index=2): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 1), ('sylTarg', 313), ('sylDist', 231), ('sylCent', 3232), ('sylFlank', 232), ('sylFlankFirst', 1)])
+70.5913 	EXP 	visCueText: autoDraw = False
+70.5913 	EXP 	fixDot: autoDraw = False
+70.5913 	EXP 	fixDotBlue: autoDraw = False
+71.5757 	EXP 	visCueText: text = 'Right'
+71.5757 	EXP 	visCueText: autoDraw = True
+72.5757 	EXP 	visCueText: autoDraw = False
+72.5757 	EXP 	fixDot: autoDraw = True
+73.5601 	EXP 	Sound soundStim started
+76.3574 	EXP 	Sound soundStim stopped
+77.3632 	EXP 	fixDotBlue: autoDraw = True
+77.3797 	EXP 	fixDot: autoDraw = False
+78.8396 	DATA 	Keypress: num_3
+80.2393 	DATA 	Keypress: num_2
+81.3243 	DATA 	Keypress: num_3
+85.3602 	EXP 	New trial (rep=0, index=3): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 123), ('sylDist', 312), ('sylCent', 2333), ('sylFlank', 232), ('sylFlankFirst', 1)])
+85.3863 	EXP 	fixDotBlue: autoDraw = False
+85.3863 	EXP 	visCueText: autoDraw = False
+85.3863 	EXP 	fixDot: autoDraw = False
+85.3863 	EXP 	fixDotBlue: autoDraw = False
+86.3705 	EXP 	visCueText: text = 'Right'
+86.3705 	EXP 	visCueText: autoDraw = True
+87.3712 	EXP 	visCueText: autoDraw = False
+87.3712 	EXP 	fixDot: autoDraw = True
+88.3726 	EXP 	Sound soundStim started
+91.1679 	EXP 	Sound soundStim stopped
+91.8809 	DATA 	Keypress: num_3
+92.1758 	EXP 	fixDot: autoDraw = False
+92.1758 	EXP 	fixDotBlue: autoDraw = True
+94.0485 	DATA 	Keypress: num_2
+94.3852 	DATA 	Keypress: num_3
+100.1703 	EXP 	New trial (rep=0, index=4): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 0), ('iGen', 1), ('sylTarg', 231), ('sylDist', 313), ('sylCent', 1112), ('sylFlank', 232), ('sylFlankFirst', 0)])
+100.1984 	EXP 	visCueText: autoDraw = False
+100.1984 	EXP 	fixDot: autoDraw = False
+100.1984 	EXP 	fixDotBlue: autoDraw = False
+101.1823 	EXP 	visCueText: text = 'Left'
+101.1823 	EXP 	visCueText: autoDraw = True
+102.1826 	EXP 	visCueText: autoDraw = False
+102.1826 	EXP 	fixDot: autoDraw = True
+103.1843 	EXP 	Sound soundStim started
+105.9844 	EXP 	Sound soundStim reached end of file
+106.9875 	EXP 	fixDot: autoDraw = False
+106.9875 	EXP 	fixDotBlue: autoDraw = True
+107.6293 	DATA 	Keypress: num_3
+108.8790 	DATA 	Keypress: num_2
+111.6326 	DATA 	Keypress: num_3
+114.9645 	EXP 	New trial (rep=0, index=5): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 1), ('iGen', 0), ('sylTarg', 321), ('sylDist', 232), ('sylCent', 3233), ('sylFlank', 211), ('sylFlankFirst', 1)])
+114.9927 	EXP 	visCueText: autoDraw = False
+114.9927 	EXP 	fixDot: autoDraw = False
+114.9927 	EXP 	fixDotBlue: autoDraw = False
+115.9927 	EXP 	visCueText: text = 'Right'
+115.9927 	EXP 	visCueText: autoDraw = True
+116.9792 	EXP 	fixDot: autoDraw = True
+116.9956 	EXP 	visCueText: autoDraw = False
+117.9795 	EXP 	Sound soundStim started
+120.7777 	EXP 	Sound soundStim stopped
+121.7655 	EXP 	fixDotBlue: autoDraw = True
+121.7817 	EXP 	fixDot: autoDraw = False
+126.3108 	DATA 	Keypress: num_3
+127.6291 	DATA 	Keypress: num_1
+129.2296 	DATA 	Keypress: num_2
+129.7568 	EXP 	New trial (rep=0, index=6): OrderedDict([('iStimSide', 1), ('iTargSide', 0), ('iSideFirst', 0), ('iStim', 1), ('iGen', 0), ('sylTarg', 112), ('sylDist', 231), ('sylCent', 3112), ('sylFlank', 333), ('sylFlankFirst', 1)])
+129.7698 	EXP 	fixDotBlue: autoDraw = False
+129.7698 	EXP 	visCueText: autoDraw = False
+129.7698 	EXP 	fixDot: autoDraw = False
+129.7698 	EXP 	fixDotBlue: autoDraw = False
+130.7716 	EXP 	visCueText: text = 'Left'
+130.7716 	EXP 	visCueText: autoDraw = True
+131.7560 	EXP 	fixDot: autoDraw = True
+131.7729 	EXP 	visCueText: autoDraw = False
+132.7583 	EXP 	Sound soundStim started
+135.5565 	EXP 	Sound soundStim stopped
+136.5596 	EXP 	fixDot: autoDraw = False
+136.5596 	EXP 	fixDotBlue: autoDraw = True
+136.8797 	DATA 	Keypress: num_3
+137.4368 	DATA 	Keypress: num_1
+137.8355 	DATA 	Keypress: num_2
+144.5516 	EXP 	New trial (rep=0, index=7): OrderedDict([('iStimSide', 0), ('iTargSide', 0), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 313), ('sylDist', 231), ('sylCent', 3121), ('sylFlank', 121), ('sylFlankFirst', 1)])
+144.5651 	EXP 	fixDotBlue: autoDraw = False
+144.5651 	EXP 	visCueText: autoDraw = False
+144.5651 	EXP 	fixDot: autoDraw = False
+144.5651 	EXP 	fixDotBlue: autoDraw = False
+145.5520 	EXP 	visCueText: text = 'Left'
+145.5520 	EXP 	visCueText: autoDraw = True
+146.5524 	EXP 	visCueText: autoDraw = False
+146.5524 	EXP 	fixDot: autoDraw = True
+147.5508 	EXP 	Sound soundStim started
+150.3509 	EXP 	Sound soundStim reached end of file
+151.3552 	EXP 	fixDot: autoDraw = False
+151.3552 	EXP 	fixDotBlue: autoDraw = True
+152.0313 	DATA 	Keypress: num_3
+153.9826 	DATA 	Keypress: num_2
+154.2658 	DATA 	Keypress: num_3
+159.3558 	EXP 	New trial (rep=0, index=8): OrderedDict([('iStimSide', 1), ('iTargSide', 1), ('iSideFirst', 1), ('iStim', 0), ('iGen', 0), ('sylTarg', 113), ('sylDist', 232), ('sylCent', 3231), ('sylFlank', 223), ('sylFlankFirst', 1)])
+159.3960 	EXP 	fixDotBlue: autoDraw = False
+159.3960 	EXP 	visCueText: autoDraw = False
+159.3960 	EXP 	fixDot: autoDraw = False
+159.3960 	EXP 	fixDotBlue: autoDraw = False
+159.3988 	DATA 	Keypress: escape
+159.5256 	EXP 	window1: mouseVisible = True

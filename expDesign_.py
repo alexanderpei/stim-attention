@@ -79,7 +79,7 @@ sylList   = ['ba', 'da', 'ga']
 win = visual.Window(
     size=[1200, 600], fullscr=False, screen=0, 
     winType='pyglet', allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color='black', colorSpace='rgb',
+    monitor='testMonitor', color='gray', colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='height')
 # store frame rate of monitor if we can measure it

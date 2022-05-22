@@ -10,7 +10,7 @@ end
 
 iSub = 2;
 % Generate the sound stimuli
-allSounds = fn_gen_sounds(iSub);
+allSounds = fn_gen_sounds_v2(iSub);
 %% Connect to RME
 
 fprintf('Initializing connection to sound card...\n')
@@ -27,6 +27,10 @@ fs = 48000;%Devic1es(i).defaultSampleRate;
 playDev = Devices(i).deviceID;
 playrec('init',fs,playDev,-1,14,-1);
 fprintf('Success! Connected to %s.\n', Devices(i).name);
+
+desireddB = 70;
+ER21vRMS = 80;
+amp = db2mag(desireddB-ER21vRMS);
 
 %% instantiate the librar1y
 disp('Loading the library...');
@@ -49,7 +53,11 @@ while true
     [mrk_,ts] = inlet.pull_sample();
 
     % What was just pulled?
-    mrk_ = mrk_{1};
+    try
+        mrk_ = mrk_{1};
+    catch
+        mrk_ = 'Empty';
+    end
     
     if contains(mrk_, 'Block')
         disp(mrk_)
@@ -64,7 +72,7 @@ while true
         stimchanList=[1,2,14];
         stim = allSounds{blockNum, trialNum};
         trig = trignum2scalar(9)*ones(size(stim,1),1);
-        allStim = [stim,trig];
+        allStim = [amp*stim,trig];
         
         playrec('play',allStim,stimchanList);
 
